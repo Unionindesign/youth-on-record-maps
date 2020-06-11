@@ -109,9 +109,14 @@
 .library-marker:hover {
 	cursor: pointer;
 	background-color: #82c341;
+	width: 30px;
+	height: 30px;
 }
 .school-icon {
 	width: 25px;
+}
+.school-icon:hover {
+	width: 30px;
 }
 .library-marker {
 	background-color: #f91bb6;
@@ -123,8 +128,15 @@
 .library-icon {
 	width: 21px;
 }
+.library-icon:hover {
+	width: 26px;
+}
 .yor-marker {
 	width: 45px;
+}
+.yor-marker:hover {
+	width: 55px;
+	cursor: pointer;
 }
 .home-icon {
 	color: #f9ad1b;
