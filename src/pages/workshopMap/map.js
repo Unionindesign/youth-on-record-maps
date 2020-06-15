@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import MapGL, { Marker, NavigationControl } from "react-map-gl";
 import gsap, { Power3 } from "gsap"
 import Tooltip from "@material-ui/core/Tooltip";
@@ -36,10 +36,11 @@ const YORWorkshopMap = () => {
             pitch: 75
         }
     )
+
     const viewportChanger = viewport => {
         setViewport(viewport)
     }
-    //TODO: Add a hover method to show just the title
+
     //TODO: so many methods? aybe try an HTML data-attribute and check for it to set target?
     const handleOpenSchoolPopup = i => evt => {
         gsap.fromTo(schoolMarkers.current[i], 1, {

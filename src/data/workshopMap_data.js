@@ -279,7 +279,7 @@ const libraries = [
         img_src: "https://geo2.ggpht.com/cbk?panoid=G_mBcqGpr6JMD2OhUIzI3A&output=thumbnail&cb_client=search.gws-prod/maps/local-details-getcard.gps&thumb=2&w=408&h=240&yaw=176.32733&pitch=0&thumbfov=100",
     },
     {
-        name: "Athmar Park ",
+        name: "Athmar Park",
         address: "1055 S Tejon St, Denver CO 80223",
         url: "https://www.denverlibrary.org/content/athmar-park-branch-library",
         classes: [
@@ -322,7 +322,7 @@ const libraries = [
 
 const workshops = [
     {
-        partner: "Heritage Camps for Adoptive Families ",
+        partner: "Heritage Camps for Adoptive Families",
         students_served: 20,
         date: "6/17/2019"
     },
@@ -352,7 +352,7 @@ const workshops = [
         date: "3/20/2019"
     },
     {
-        partner: "Gateway to College ",
+        partner: "Gateway to College",
         students_served: 15,
         date: "5/20/2019"
     },
@@ -362,12 +362,12 @@ const workshops = [
         date: "2/28/2019"
     },
     {
-        partner: "John F Kennedy High School ",
+        partner: "John F Kennedy High School",
         students_served: 6,
         date: "5/14/2019"
     },
     {
-        partner: "Florence Crittenton High School ",
+        partner: "Florence Crittenton High School",
         students_served: 15,
         date: "5/16/2019"
     },

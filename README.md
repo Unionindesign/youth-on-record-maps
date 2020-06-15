@@ -1,68 +1,19 @@
+# Youth On Record "Digital Mapping Initivate"
+
+### (YouthOnRecord.org)[https://www.youthonrecord.org/]
+
+![logo](./src/images/yor_darlogo_cropped.png)
+
+Youth On Record is Denver Non-Profit whose mission is to empower youth through creative education. I have been involved with Youth on Record for several years, both as a musician and data analyst. In the fall of 2019 I approached them about building an interactive map to showcase their community impact, ultimately to use this data to help secure future contracts and grant funding.
+
+The map, built with ReactJS and Mapbox, has a temporary home on Heroku while I work with website partner [Elevated Third](https://www.elevatedthird.com/) to integrate into their Drupal website. Live Workshop Map: https://lit-ocean-77747.herokuapp.com/
+
+In addition, this map will be expanded to include data on partner artists and music ambassadors - traveling, international artists who donate concert proceeds or material goods and equipment. This will be a global map, with many bands and artists stopping through Denver for concerts as they travel the globe, and gracing the Denver Youth Media Studio with live performances, recordings, and interviews.
+
+This intitiative has grown into a larger project of organizing their data into a PostgreSQL database, currently under construction, and ultimately a Python app to use image recognition and Natural Language Processing (NLP) to scan their pre and post student surveys and push to the database, making reporting easily accessibly to board members to help in securing funding.
+
+The code to do so is open-sourced here: https://github.com/Unionindesign/YouthOnRecord
+
+I believe it is important to share this code in case someone else out there would like to take on an endeavor like this for another non-profit who does not have the means or technical know-how to organize their data, and use it for data-driven reporting which is so vital to the survival of non-profit organizations.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
