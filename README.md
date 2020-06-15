@@ -1,8 +1,7 @@
 # Youth On Record "Digital Mapping Initivate"
 
-### (YouthOnRecord.org)[https://www.youthonrecord.org/]
-
-![logo](./src/images/yor_darlogo_cropped.png)
+![logo](./src/images/yor_darklogo_cropped.png)
+[YouthOnRecord.org](https://www.youthonrecord.org/)
 
 Youth On Record is Denver Non-Profit whose mission is to empower youth through creative education. I have been involved with Youth on Record for several years, both as a musician and data analyst. In the fall of 2019 I approached them about building an interactive map to showcase their community impact, ultimately to use this data to help secure future contracts and grant funding.
 
