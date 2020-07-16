@@ -1,13 +1,9 @@
-
-
-import React from 'react';
-import './App.css';
-// import { BrowserRouter, Route, } from "react-router-dom"; 
-
+import React from "react";
+import "./App.css";
+// import { BrowserRouter, Route, } from "react-router-dom";
 
 //pages
-
-import YORWorkshopMap from "./pages/workshopMap/map"
+import YORWorkshopMap from "./pages/workshopMap/map";
 
 function App() {
   return (
@@ -16,7 +12,6 @@ function App() {
       {/* <Route path="/" > */}
       <YORWorkshopMap />
       {/* </Route> */}
-
     </div>
     // </BrowserRouter>
   );
