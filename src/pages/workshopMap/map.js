@@ -15,7 +15,7 @@ import Library from "../../images/library.png";
 import DarkLogo from "../../images/yor_darklogo_cropped.png";
 
 //mapbox API access token
-const TOKEN = process.env.REACT_APP_MAPBOX_TOKEN;
+const TOKEN = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
 const YORWorkshopMap = (props) => {
   const schoolMarkers = useRef([]);
@@ -116,6 +116,7 @@ const YORWorkshopMap = (props) => {
       visibility: "hidden",
     });
   };
+
   return (
     <div className="map-container">
       <MapGL
