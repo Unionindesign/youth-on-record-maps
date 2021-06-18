@@ -2,9 +2,10 @@ import React, { useState, useRef } from "react";
 import MapGL, { Marker, NavigationControl } from "react-map-gl";
 import gsap, { Power3 } from "gsap";
 import Tooltip from "@material-ui/core/Tooltip";
-// import IconHome from "@material-ui/icons/Home";
-// import { Link } from "react-router-dom";
 import "./map.css";
+
+import 'mapbox-gl/dist/mapbox-gl.css';
+import mapboxgl from 'mapbox-gl';
 
 //data
 import { schools, libraries, workshops } from "../../data/workshopMap_data";
@@ -14,10 +15,12 @@ import Grads from "../../images/grads.png";
 import Library from "../../images/library.png";
 import DarkLogo from "../../images/yor_darklogo_cropped.png";
 
+// eslint-disable-next-line import/no-webpack-loader-syntax
+mapboxgl.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
 //mapbox API access token
 const TOKEN = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
-const YORWorkshopMap = (props) => {
+const YORWorkshopMap = () => {
   const schoolMarkers = useRef([]);
   const libraryMarkers = useRef([]);
   const yorRef = useRef();
